@@ -10,7 +10,8 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:contentDescription="Member Image"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
 
     <TextView
         android:id="@+id/textViewMemberName"
@@ -19,6 +20,7 @@
         android:layout_gravity="center_vertical"
         android:layout_marginStart="16dp"
         android:layout_weight="1"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:text="Test text"/>
 
 </LinearLayout>
