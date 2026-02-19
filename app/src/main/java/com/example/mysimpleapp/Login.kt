@@ -2,6 +2,7 @@ package com.example.mysimpleapp
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -17,7 +18,7 @@ import com.example.mysimpleapp.databinding.LoginBinding
 class Login : Fragment() {
 
     private var _binding: LoginBinding? = null
-    private lateinit var loginBtn: Button //TODO: Fix this
+    private lateinit var loginBtn: Button
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -54,7 +55,7 @@ class Login : Fragment() {
     }
 
     private fun forgetPassword() {
-        TODO("Not yet implemented")
+        Log.d("Forget Password", "Forget Password button clicked")
     }
 
     override fun onDestroyView() {
